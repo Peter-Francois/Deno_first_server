@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-net main.ts"
+  },
+  "imports": {
+    "@std/assert": "https://deno.land/std@0.110.0/testing/asserts.ts",
+    "server": "https://deno.land/std@0.204.0/http/server.ts",
+    "oak":"https://deno.land/x/oak/mod.ts"  
+  }
+}
